@@ -1,16 +1,16 @@
 export default {
   // 网站标题
-  Title: '韩小韩博客',
+  Title: 'Aholicoco的博客',
   // 网站地址
-  Site: 'https://www.vvhan.com',
+  Site: 'https://www.test.com',
   // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
   // 网站描述
-  Description: '韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
+  Description: 'Aholococo的个人博客,分享技术、编程语言、生活日常等内容.',
   // 网站作者
-  Author: '.𝙃𝙖𝙣',
+  Author: 'Aholicoco',
   // 作者头像
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
+  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2726239587&s=640',
   // 网站座右铭
   Motto: '运气是计划之外的东西.',
   // Cover 网站缩略图
@@ -57,18 +57,18 @@ export default {
     { text: '动态', link: '/talking', icon: 'Nav_talking' },
     { text: '昔日', link: '/archives', icon: 'Nav_archives' },
     { text: '留言', link: '/message', icon: 'Nav_message' },
-    { text: '关于', link: '/about', icon: 'Nav_about' },
-    { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: 'Nav_link' },
+    // { text: '关于', link: '/about', icon: 'Nav_about' },
+    // { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: 'Nav_link' },
   ],
   // 侧边栏个人网站
   WebSites: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
-    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
-    { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
+    { text: 'Github', link: 'https://github.com/Aholicoco', icon: 'WebSite_github' },
+    // { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
+    // { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
     { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: 'WebSite_img' },
-    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
+    // { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
   AsideShow: {
@@ -96,7 +96,7 @@ export default {
   Comment: {
     // Twikoo 评论
     Twikoo: {
-      enable: false,
+      enable: true,
       envId: ''
     },
     // Waline 评论
@@ -118,9 +118,9 @@ export default {
   // 文章内赞赏码
   Reward: {
     // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
+    // AliPay: '/assets/images/alipay.webp',
     // 微信收款码
-    WeChat: '/assets/images/wechat.webp'
+    // WeChat: '/assets/images/wechat.webp'
   },
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
