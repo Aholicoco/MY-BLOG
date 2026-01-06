@@ -23,7 +23,7 @@ export default {
     "I am making progress in the time I haven't shared with you.",
   ],
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2026-01-06',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
