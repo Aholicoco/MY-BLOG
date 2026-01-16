@@ -18,6 +18,13 @@ export default {
         "日常"
       ],
       "content": "测试第一条动态"
+    },
+      {
+      "date": "2026-01-16 11:57:00",
+      "tags": [
+        "图片"
+      ],
+      "content": "github图床测试<p class=\"vh-img-flex\"><img src=\"https://raw.githubusercontent.com/Aholicoco/image-host/main/public/f80e3fc8-e19a-4537-b219-be4a2baaf46b.jpg\"></p>"
     }
   ]
 }
